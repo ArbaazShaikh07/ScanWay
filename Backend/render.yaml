@@ -5,7 +5,7 @@ services:
     region: oregon
     plan: free
     branch: main
-    rootDir: .
-    buildCommand: "python -m pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
+    rootDir: Backend
+    buildCommand: "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
     startCommand: "./start.sh"
     autoDeploy: true
